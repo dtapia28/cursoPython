@@ -1,0 +1,4 @@
+class Player:
+    puntos_golpe = 50
+    mana = 50
+    vocacion = "guerrero"

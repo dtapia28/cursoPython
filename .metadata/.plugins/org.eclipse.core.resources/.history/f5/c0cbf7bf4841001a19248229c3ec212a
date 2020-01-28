@@ -1,0 +1,8 @@
+from player import Player
+
+print("El maná del guerrero es "+str(Player.mana))
+
+dante = Player()
+dante.puntos_golpe = 30
+print(dante.mana)
+print(dante)

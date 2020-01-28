@@ -1,0 +1,10 @@
+class Player:
+    puntos_golpe
+    mana
+    vocacion
+    ataque
+    
+    def __init__(self):
+        
+    def atacar(self):
+        return self.ataque

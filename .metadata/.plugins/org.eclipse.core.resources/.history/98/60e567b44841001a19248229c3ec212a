@@ -1,0 +1,7 @@
+from player import Player
+
+print("El maná del guerrero es "+str(Player.mana))
+
+dante = Player()
+
+print(dante.mana)
