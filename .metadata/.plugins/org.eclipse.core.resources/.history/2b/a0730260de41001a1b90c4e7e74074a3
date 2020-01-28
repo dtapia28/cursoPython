@@ -1,6 +1,5 @@
 from player import Player
 from enemigos import Enemigos
-import edificios
 
 dante = Player(60, 5, "guerrero", "hoja afilada")
 
@@ -17,7 +16,3 @@ print("ataca con "+str(goblin.atacar()))
 print(paladin.atacar())
 
 print(elfo.atacar())
-
-mi_casa = edificios.Casa(largo=100,ancho=80)
-
-print("La "+mi_casa.ver_tipo()+" está construida con "+mi_casa.ver_material())

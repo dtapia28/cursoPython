@@ -1,0 +1,5 @@
+from player import Player
+
+dante = Player(60, 5, "guerrero", "hoja afilada")
+
+paladin = Player(70, 5, "paladin", "Masazo")

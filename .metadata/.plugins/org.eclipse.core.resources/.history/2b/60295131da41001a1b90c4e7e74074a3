@@ -1,0 +1,16 @@
+from player import Player
+from enemigos import Enemigos
+
+dante = Player(60, 5, "guerrero", "hoja afilada")
+
+paladin = Player(70, 5, "paladin", "Mazazo")
+
+elfo = Player(50, 10, "elfo", "Flecha segura")
+
+goblin = Enemigos(nombre="Goblin", ataque=20, defensa=10, destreza=5)
+
+print(goblin)
+
+print(paladin.atacar())
+
+print(elfo.atacar())

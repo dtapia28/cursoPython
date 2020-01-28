@@ -1,0 +1,7 @@
+class Enemigos:
+    
+    def __init__(self,**kwargs):
+        self.nombre = kwargs.get("nombre")
+        self.fuerza = kwargs.get("ataque")
+        self.defensa = kwargs.get("defensa")
+        self.destreza = kwargs.get("destreza")
