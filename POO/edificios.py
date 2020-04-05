@@ -26,4 +26,9 @@ class Edificios:
 
 class Casa(Edificios):
     tipo = "casa"
+    material = "palitos"
+    
+# Sobreescritura de metodos
+    def ver_material(self):
+        return "{} y ladrillos ".format(self.material)
                

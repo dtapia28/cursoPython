@@ -1,5 +1,0 @@
-from player import Player
-
-dante = Player(60, 5, "guerrero", "hoja afilada")
-
-print(dante.atacar())

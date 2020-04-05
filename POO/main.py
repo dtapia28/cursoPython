@@ -20,4 +20,8 @@ print(elfo.atacar())
 
 mi_casa = edificios.Casa(largo=100,ancho=80)
 
+depto = Edificios()
+
 print("La "+mi_casa.ver_tipo()+" está construida con "+mi_casa.ver_material())
+
+print(dante)
